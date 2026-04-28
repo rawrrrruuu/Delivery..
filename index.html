@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Parcel for You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bgMain: '#f8e9f0',
+                        textMain: '#333333',
+                        highlight: '#c44569',
+                    },
+                    fontFamily: {
+                        sans: ['system-ui', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 1s ease-in-out',
+                        'slide-up': 'slideUp 1s ease-in-out',
+                        'float': 'float 3s ease-in-out infinite',
+                        'heart-beat': 'heartBeat 1.5s ease-in-out infinite',
+                        'text-appear': 'textAppear 0.8s ease-in-out forwards',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-8px)' },
+                        },
+                        heartBeat: {
+                            '0%, 100%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.1)' },
+                        },
+                        textAppear: {
+                            '0%': { opacity: '0', transform: 'translateX(-10px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-content {
+                line-height: 1.8;
+            }
+            .delay-100 {
+                animation-delay: 0.1s;
+            }
+            .delay-200 {
+                animation-delay: 0.2s;
+            }
+            .delay-300 {
+                animation-delay: 0.3s;
+            }
+            .delay-400 {
+                animation-delay: 0.4s;
+            }
+            .delay-500 {
+                animation-delay: 0.5s;
+            }
+            .delay-600 {
+                animation-delay: 0.6s;
+            }
+            .delay-700 {
+                animation-delay: 0.7s;
+            }
+            .hidden-init {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-bgMain min-h-screen flex items-start justify-center p-4 py-8 overflow-x-hidden">
+    <div class="w-full max-w-md bg-white/70 rounded-2xl shadow-md p-6 md:p-8 text-center animate-fade-in">
+        
+        <!-- Header Section -->
+        <div class="mb-8">
+            <div class="w-16 h-16 bg-highlight/10 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
+                <span class="text-2xl animate-heart-beat">📦</span>
+            </div>
+            <h1 class="text-[clamp(1.2rem,3vw,1.8rem)] font-medium text-textMain text-content">
+                <span class="inline-block animate-text-appear hidden-init delay-100">Going to your house</span><br>
+                <span class="inline-block animate-text-appear hidden-init delay-200">Hello, you have parcel po</span><br>
+                <span class="inline-block animate-text-appear hidden-init delay-300">It's my genuine care and the best of intentions.</span>
+            </h1>
+        </div>
+
+        <!-- Message Content -->
+        <div class="text-left text-gray-700 space-y-5 leading-relaxed">
+            
+            <p class="hidden-init animate-slide-up delay-300">
+                Every line you send carries your feelings, your thoughts, your care, and your love. Even without hearing your voice, I can feel the warmth in your words. Even without seeing you smile, I can feel your happiness when you write to me. Even when things get hard and the distance feels too heavy to carry, just reading your messages reminds me why I chose you, and why I will always choose you.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-400">
+                People say that communication is about speaking and hearing, but you taught me that true communication happens in the heart. We understand each other in ways that words spoken out loud sometimes cannot explain. We learned how to read between the lines, how to feel what the other is going through, and how to give comfort even when we are only writing to each other.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-500">
+                One year and three months is not just a number. It is proof that our love is stronger than any limitation. It is proof that love does not need to be heard to be felt, and does not need to be seen to be real. Thank you for staying with me despite all the things we cannot do. Thank you for giving me your time, your effort, and your heart every single day.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-600">
+                I promise you this: no matter how long it takes, no matter how much longer we have to wait, and no matter how many more days we only have messages to connect us, my love for you will never fade. It will only grow deeper, stronger, and more genuine. You are my person, my home, and my future. I love you more than all the words in the world could ever describe. Happy monthsary, my everything. ❤️
+            </p>
+
+            <div class="border-t border-pink-200 my-6 w-full opacity-60 animate-fade-in delay-700"></div>
+
+            <p class="text-center text-highlight font-semibold text-lg hidden-init animate-slide-up delay-700">
+                Happy 1st year and 3rd monthsary, my one and only. 🥺
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-800">
+                It has been 15 months of loving you from afar, 15 months of building our connection through nothing but text, and 15 months of proving that love truly knows no boundaries. There are times when I wish I could just call you and hear your voice, just to make me feel closer to you. There are moments when I wish I could see you, just to know that you are doing okay. There are even times when it hurts so much knowing that we cannot do what other couples easily do. But then I look at our conversation history, and I realize something beautiful: we have built something pure and rare.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-900">
+                Because we can only chat, every message we send is special. Every word is thought of carefully, every sentence is filled with sincerity, and every reply is something we wait for with so much excitement. We do not take each other for granted because we know that this is the only way we can be together right now. Every good morning and good night message, every update about our day, every sweet word and every word of comfort—all of these are threads that we have used to weave the strongest bond between us.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-1000">
+                You have taught me that love is not defined by how often we talk or how close we are physically. Love is defined by how much effort we give, how much patience we have, and how much we are willing to hold on even when things are difficult. Even without hearing your voice, I feel your love deeply. Even without seeing you, I know you are always with me in my heart and in my mind.
+            </p>
+
+            <p class="hidden-init animate-slide-up delay-1100">
+                These past 1 year and 3 months have been the most meaningful part of my life, all because you are part of it. Thank you for choosing me every single day, for understanding me even when I find it hard to express myself, and for loving me in the most beautiful way
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 pt-6 border-t border-pink-200 text-center text-gray-600 hidden-init animate-slide-up delay-1200">
+            <p class="font-medium text-lg">From your one and only ❤️</p>
+            <p class="text-sm mt-1">For Cazhiel Faemyar</p>
+        </div>
+    </div>
+</body>
+  </html>
+  
